@@ -6,11 +6,11 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRb;
     private bool isOnGround = true;
     private float jumpForce = 10.0f;
-    public bool gameOver = false;
+    public bool gameOver ;
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        playerRb.AddForce(Vector3.up * 500);
+     
     }
 
     // Update is called once per frame
